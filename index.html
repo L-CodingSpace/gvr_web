@@ -128,6 +128,18 @@
             font-weight: 500;
         }
 
+        .author-link {
+            color: var(--text-secondary);
+            text-decoration: none;
+            transition: all 0.3s ease;
+            border-bottom: 1px solid transparent;
+        }
+
+        .author-link:hover {
+            color: #ff69b4;
+            border-bottom: 1px solid #ff69b4;
+        }
+
         /* Colorful affiliation numbers */
         .affil-1 {
             color: #4facfe;
@@ -1183,10 +1195,10 @@
             <p class="authors">
                 <span class="author-highlight">Xinxin Liu</span><sup class="affil-1">1</sup><span style="color: var(--text-secondary);">*</span>, 
                 <span class="author-highlight">Zhaopan Xu</span><sup class="affil-2">2</sup><span style="color: var(--text-secondary);">*</span>, 
-                Ming Li<sup class="affil-1">1</sup>, 
-                Kai Wang<sup class="affil-2">2</sup>, 
-                Yong Jae Lee<sup class="affil-3">3</sup>, 
-                <span class="author-highlight">Yuzhang Shang</span><sup class="affil-1">1</sup><span style="color: var(--text-secondary);">†</span>
+                <a href="https://liming-ai.github.io/" class="author-link" target="_blank">Ming Li</a><sup class="affil-1">1</sup>, 
+                <a href="https://kaiwang960112.github.io/" class="author-link" target="_blank">Kai Wang</a><sup class="affil-2">2</sup>, 
+                <a href="https://pages.cs.wisc.edu/~yongjaelee/" class="author-link" target="_blank">Yong Jae Lee</a><sup class="affil-3">3</sup>, 
+                <a href="https://42shawn.github.io/" class="author-link" target="_blank"><span class="author-highlight">Yuzhang Shang</span></a><sup class="affil-1">1</sup><span style="color: var(--text-secondary);">†</span>
             </p>
             <p class="authors" style="font-size: 0.9rem; margin-top: 10px;">
                 <sup class="affil-1">1</sup>University of Central Florida &nbsp;&nbsp; 
